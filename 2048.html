@@ -1,3 +1,34 @@
+<!--  这是html的注释，和别的注释不一样哦 -->
+<!-- 我们会发现emmet主要是用来生成html文档结构的，次插件类似于webstorm上内置的插件
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html> -->
+<!--我们会发现它也可以用于文档节点的生成，完全是一个生成节点的好的插件，有了这个插件我们可以很方便的输出任何我们想要生成的节点
+ <div>
+	<a href=""></a>
+	<a href=""></a>
+	<a href=""></a>
+	<a href=""></a>
+	<a href=""></a>
+</div> -->
+<!-- >用于生成子代，＋用于生成同一代
+<div></div>
+<p></p>
+<h1></h1> -->
+<!-- 这里的ul 和span 是在同一个级别，我们一般是要对其进行^的书写来处理
+<div>
+	<ul>
+		<li></li>
+	</ul>
+	<span></span>
+</div> -->
 <!DOCTYPE HTML>
 <HTML>
  <HEAD>
@@ -6,8 +37,20 @@
    <link rel="stylesheet" href="2048.css"/>
    <script src="2048.js"></script>
  </HEAD>
-
  <BODY>
+	
+ <!-- div>(header>ul>li*2>a)+footer>可以生成如下的代码片段 -->
+	<div>
+		<header>
+			<ul>
+				<li><a href=""></a></li>
+				<li><a href=""></a></li>
+			</ul>
+		</header>
+		<footer>
+			<p></p>
+		</footer>
+	</div>
  	<h1>在Mac下尝试git</h1>
     <p>Score: <span id="score">0</span></p>
 	<div id="gridPanel">
