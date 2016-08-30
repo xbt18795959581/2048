@@ -271,6 +271,14 @@ var game = {
 		return this.data.toString().search(/(8192,)|(,8192)/) != -1;
 	}
 }
+////////
+//xbt //
+////////
+/**
+ * [onload description]
+ * @return {[type]} [description]
+ */
+var a = document.getElementById('xubaoting')
 window.onload = function() {
 	game.start();
 	//当网页捕获到键盘按下事件时
